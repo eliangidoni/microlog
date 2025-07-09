@@ -61,6 +61,11 @@ name = "engine_bench"
 harness = false
 required-features = []
 
+[[bench]]
+name = "query_bench"
+harness = false
+required-features = []
+
 [profile.dev]
 # Fast compilation for development
 opt-level = 0
